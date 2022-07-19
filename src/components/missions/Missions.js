@@ -64,7 +64,7 @@ const Missions = () => {
                 )}
               </td>
 
-              {/* <td className="join-mission">
+              <td className="join-mission">
                 <button
                   type="button"
                   className="join-btn"
@@ -76,7 +76,7 @@ const Missions = () => {
                 >
                   {mission.reserved ? 'Leave Mission' : 'Join Mission'}
                 </button>
-              </td> */}
+              </td>
             </tr>
           ))}
         </tbody>
