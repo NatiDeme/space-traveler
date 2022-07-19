@@ -18,6 +18,18 @@ const Missions = () => {
     // eslint-disable-next-line
   }, []);
 
+  const toggleStatus = (id) => {
+    dispatch(changeStatus(id));
+  };
+
+  const showModal = (name, description) => {
+    setOpenModal(true);
+    setModalMission({
+      name,
+      description,
+    });
+  };
+
 };
 
 export default Missions;
