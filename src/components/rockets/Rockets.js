@@ -1,10 +1,18 @@
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { getRockets } from '../../redux/rockets/rockets';
+import Reserve from './Reserve/Reserve';
 
 import './Rockets.css';
 
 const Rockets = () => {
-  useDispatch();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getRockets);
+    // eslint-disable-next-line
+  }, []);
+
   const rockets = useSelector((state) => state.rockets);
 
   return (
@@ -19,6 +27,7 @@ const Rockets = () => {
                 {rocket.reserved && (<small className="reserved">Reserved</small>)}
                 {rocket.description}
               </span>
+              <Reserve id={rocket.id} reserved={rocket.reserved} />
             </div>
           </li>
         ))}
