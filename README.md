@@ -1,56 +1,69 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+
+# space earth
 
 > Description the project.
 
 
+# Book-store
+Space traveller  built with React 
+
+The functionalities are:
+- consists of three pages
+- reserve rockets
+- join missions
+
+> Using CSS, JavaScript and react
+
+
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run build`
+
+Runs the app in the development mode.\
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+### `npm run start`
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- CSS, JavaScript and react
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up follow these simple example steps.
 
+1. Clone this repository or download the Zip folder:
 
-To get a local copy up and running follow these simple example steps.
+**``git clone https://github.com/NatiDeme/space-traveler.git``**
+
+2. Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd <folder>``**
 
 ### Prerequisites
 
-### Setup
+- GIT, NODE, NPM, REACT
 
-### Install
+## Author1
 
-### Usage
+👤 **hanningtone Monda**
 
-### Run tests
+- Github: [@HanningtoneM](https://github.com/HanningtoneM)
+- linkedin: [@Hanningtone Machuka](https://www.linkedin.com/in/hanningtone-machuka-58501722a)
+- Twitter: [@Hanningtone254](https://twitter.com/Hanningtone254?t=YVXXz9EZzOhR5vPi3DlHDQ&s=09)
 
-### Deployment
+👤 **Natnael Demelash**
 
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NatiDeme](https://github.com/NatiDeme)
+- Twitter: [@NatiDemelash](https://twitter.com/NatiDemelash)
+- LinkedIn: [Natnael Demelash](https://www.linkedin.com/in/natnael-demelash/)
 
 ## 🤝 Contributing
 
